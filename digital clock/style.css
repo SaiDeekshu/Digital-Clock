@@ -1,0 +1,59 @@
+*{
+   margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
+body{
+    background: linear-gradient(90deg, #61cece, #eb9279);
+    animation: gradient-pulse 3s ease-in-out infinite;
+    font-family: 'MyCustomFont', sans-serif;
+}
+.container {
+    color:white;
+   font-size:40px;
+  text-align:center;
+  font-family: 'MyCustomFont', sans-serif;
+}
+.clock{
+    width:450px;
+    height:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:490px;
+    margin-top:150px;
+  }
+.clock div{
+    background-color:white;
+    height:100%;
+    width:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#202020;
+    font-size:60px;
+    background: linear-gradient(90deg, #54d3dc, #ea957d);
+    animation: gradient-pulse 3s ease-in-out infinite;
+     }
+.clock span{
+    font-weight:600px;
+    font-size:60px;
+    color:white;
+}   
+@keyframes gradient-pulse {
+    0% {
+        background: linear-gradient(90deg, #74deee, #dac572);
+    }
+    
+    50% {
+        background: linear-gradient(90deg, #74deee, #dac572);
+    }
+}
+@keyframes gradient-pulse {
+    50%, 50% {
+        background: linear-gradient(90deg, #74deee, #dac572);
+    }
+    50%,50% {
+        background: linear-gradient(90deg, #74deee, #dac572);
+    }
+}
